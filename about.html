@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+</head>
+  
+<body>
+  <h1><center>About Me</center></h1>
+  
+  <header>
+      <!-- Navigation with links -->
+      <nav>
+  <div class="link-container">
+    <a href="index.html" class="button">Home</a>
+    <a href="virginia.html" class="button">Virginia Woolf</a>
+    <a href="sylvia.html" class="button">Sylvia Plath</a>
+    <a href="mary.html" class="button">Mary Oliver</a>
+    <a href="about.html" class="button">About Me</a>
+  </div>
+      </nav>
+    </header>
+  
+  <img src="C:\Users\nuhar\Downloads\IMG_2643.jpg" alt="Image" />
+  
+  <p><center>Hello everyone! I am currently a university student trying to improve my web development and coding skills! I am from the Bay Area, and I live
+    with my 2 siblings and parents in Hayward, California. I enjoy reading, writing, baking, and spending time with my friends and family. My journey with classic
+    literature started in middle school, where I was exposed to the works of Mark Twain and Mary Oliver. From there, I ventured to other authors and books. 
+    If you would like to learn more about female authors who influenced classical literature, you're at the right page!</center></p>
+  
+  <p>
+    <center>If you would like to contact me, please feel free to reach out on my email: 20365326@fhda.edu or fill out the form below!</center>
+  </p>
+  
+  <div class="container">
+      <h2>Contact Me</h2>
+      <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </div>
+</body>
+</html>
